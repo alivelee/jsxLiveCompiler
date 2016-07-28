@@ -1,0 +1,20 @@
+body {
+  font-face:monospace;
+}
+header {
+  background: #d20962;
+  height:5vh;
+  overflow: auto;
+  font-size: 2em;
+}
+.container {
+  display: flex;
+}
+textarea,
+pre {
+  flex:1;
+  height:100vh;
+}
+textarea:focus {
+  outline:0;
+}
